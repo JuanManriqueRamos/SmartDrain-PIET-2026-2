@@ -1,0 +1,64 @@
+# ESP-IDF build output and generated configuration
+/build/
+/**/build/
+/managed_components/
+/sdkconfig
+/sdkconfig.old
+/.espressif/
+
+# Local WiFi credentials
+/main/wifi_credentials_local.h
+
+# Compiled output
+*.o
+*.a
+*.out
+*.exe
+*.bin
+*.elf
+*.map
+flasher_args.json
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+compile_commands.json
+
+# ESP-IDF component manager metadata generated locally
+/components/.idf/
+/**/components/.idf/
+
+# Python environments and caches
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+
+# Editor and OS files
+/.clangd/
+/.clangd
+/.vscode/
+/.devcontainer/
+.DS_Store
+.AppleDouble
+.LSOverride
+.directory
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.user
+*.workspace
+*.suo
+*.sln.docstates
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log

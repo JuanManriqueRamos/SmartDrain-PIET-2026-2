@@ -1,0 +1,21 @@
+menu "Nodo Sensor"
+
+    menu "Wi-Fi y servidor"
+        config NODO_WIFI_SSID
+            string "SSID de Wi-Fi"
+            default ""
+
+        config NODO_WIFI_PASSWORD
+            string "Contrasena de Wi-Fi"
+            default ""
+
+        config NODO_API_URL
+            string "URL del endpoint de recepcion"
+            default "http://192.168.1.100/nodo_sensor/ingest.php"
+
+        config NODO_API_KEY
+            string "Clave compartida para la API"
+            default "cambie-esta-clave"
+    endmenu
+
+endmenu
